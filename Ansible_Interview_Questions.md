@@ -108,7 +108,7 @@ ansible-playbook playbook.yml --check & ansible-playbook playbook.yml --start-at
 
     We use exclamation mark to exclude a server.
 
-    ```
+```
 ---
 - name: Deploy packages on all webservers except server3
   hosts: webservers
