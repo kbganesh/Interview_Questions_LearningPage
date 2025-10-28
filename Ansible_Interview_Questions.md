@@ -25,11 +25,11 @@
 
 2. What are the Parameter to use run the script as root user?
 
-We can use -b option: ansible-playbook -i hosts.ini deploy_package.yml -b
+    We can use -b option: ansible-playbook -i hosts.ini deploy_package.yml -b
 
 3. What is the Roles in ansible and How to call it?
 
-/etc/ansible/roles/httpfullinstall/tasks/main.yml
+      Path: /etc/ansible/roles/httpfullinstall/tasks/main.yml
 
 ```
 - name: Basic install
