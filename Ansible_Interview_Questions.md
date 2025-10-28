@@ -1,6 +1,6 @@
 1. Write a Simple YAML file To deploy an package?
 
-
+```
 ---
 - name: Deploy a package on remote servers
   hosts: webservers
@@ -21,7 +21,7 @@
         name: nginx
         state: started
         enabled: yes
-
+```
 
 2. What are the Parameter to use run the script as root user?
 
