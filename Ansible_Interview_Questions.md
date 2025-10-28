@@ -18,6 +18,7 @@
    lkfmnlmkngfwkj bsjkbnfkdb
 
    Testing git
+   jwdfbj:w
 
 4. If you Want to run the Ansible task simultaneously to 10 servers and what is the parameter to use for it?
 
