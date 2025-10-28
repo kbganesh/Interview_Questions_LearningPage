@@ -1,14 +1,15 @@
-1. Write a Simple YAML file To deploy an Package?
+1. Write a Simple YAML file To deploy an package?
 
 2. What are the Parameter to use run the script as root user?
 
 3. What is the Roles in ansible and How to call it?
 
 /etc/ansible/roles/httpfullinstall/tasks/main.yml
+
 - name: Basic install
   hosts: testservers
   roles:
-   - httpbasicinstall
+   - httpfullinstall
 
 4. If you Want to run the Ansible task simultaneously to 10 servers and what is the parameter to use for it?
 
