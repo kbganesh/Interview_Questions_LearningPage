@@ -77,12 +77,12 @@
 
 7. Command to check the Syntax of the ansible-playbook and start from particulat Task?
 
-ansible-playbook playbook.yml --check & ansible-playbook playbook.yml --start-at-task="Install package"
+    ansible-playbook playbook.yml --check & ansible-playbook playbook.yml --start-at-task="Install package"
 
 
 8. Latest ansible version?
 
-2.18.0 and it supported upto 2026.
+    2.18.0 and it supported upto 2026.
 
 
 9. How to Recover ansble vault Password?
