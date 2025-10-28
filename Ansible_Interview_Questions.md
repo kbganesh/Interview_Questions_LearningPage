@@ -25,23 +25,18 @@
 
 2. What are the Parameter to use run the script as root user?
 
+We can use -b option: ansible-playbook -i hosts.ini deploy_package.yml -b
+
 3. What is the Roles in ansible and How to call it?
 
 /etc/ansible/roles/httpfullinstall/tasks/main.yml
 
+```
 - name: Basic install
   hosts: testservers
   roles:
    - httpfullinstall
-
-
-
-   hgvsdhvfhjvhvvbhhl
-
-   lkfmnlmkngfwkj bsjkbnfkdb
-
-   Testing git
-   jwdfbj:w
+```
 
 4. If you Want to run the Ansible task simultaneously to 10 servers and what is the parameter to use for it?
 
