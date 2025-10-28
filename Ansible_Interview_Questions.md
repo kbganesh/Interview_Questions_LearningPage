@@ -1,5 +1,28 @@
 1. Write a Simple YAML file To deploy an package?
 
+
+---
+- name: Deploy a package on remote servers
+  hosts: webservers
+  become: yes  # run with sudo privileges
+
+  tasks:
+    - name: Update package cache
+      ansible.builtin.apt:
+        update_cache: yes
+
+    - name: Install Nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: present
+
+    - name: Ensure Nginx is running
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
 2. What are the Parameter to use run the script as root user?
 
 3. What is the Roles in ansible and How to call it?
